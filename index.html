@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Trash Can</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Page -->
+    <div id="home-page">
+        <h1>Select your Pettandi</h1>
+        <div id="choices">
+            <div class="choice" data-type="trash">
+                <img src="images/trash1.png" alt="Trash 1">
+            </div>
+            <div class="choice" data-type="non-trash">
+                <img src="images/trash2.png" alt="Trash 2">
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Page -->
+    <div id="game-container" class="hidden">
+        <div id="score">Score: <span id="score-value">0</span></div>
+        <div id="lives">Lives: <span id="lives-value">♥♥♥</span></div>
+        <div id="trash-can"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
